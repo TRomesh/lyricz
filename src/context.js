@@ -5,10 +5,7 @@ const Context = createContext();
 
 export class Provider extends Component {
   state = {
-    track_list: [
-      { track: { track_name: "ABC" } },
-      { track: { track_name: "EFG" } }
-    ],
+    track_list: [],
     heading: "Top 10 Tracks"
   };
 
